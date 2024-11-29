@@ -7,68 +7,52 @@ The Train Booking System is a Java-based application designed to manage train re
 ## **Features**
 
 **User Registration and Login:**
-
-New users can register with their details.
-
-Existing users can log in and access their accounts.
+- New users can register with their details.
+- Existing users can log in and access their accounts.
 
 
 **Train Search:**
-
-Search for trains by route, train number, or schedule.
+- Search for trains by route, train number, or schedule.
 
 
 **Ticket Booking:**
-
-Book tickets for available trains with real-time seat availability updates.
+- Book tickets for available trains with real-time seat availability updates.
 
 
 **Ticket Cancellation:**
-
-Cancel booked tickets and update availability.
+- Cancel booked tickets and update availability.
 
 
 **Admin Functions:**
-
-Manage train schedules, add/remove trains, and view bookings.
+- Manage train schedules, add/remove trains, and view bookings.
 
 ## **Project Structure**
 
 ### **Main Classes**
 
 **User:**
-
-Handles user registration, login, and profile management.
+- Handles user registration, login, and profile management.
 
 **Train:**
-
-Manages train information, including routes, schedules, and seat availability.
+- Manages train information, including routes, schedules, and seat availability.
 
 **Booking:**
-
-Handles ticket booking and cancellation processes.
+- Handles ticket booking and cancellation processes.
 
 **Admin:**
-
-Includes functionality for administrators to manage trains and monitor bookings.
+- Includes functionality for administrators to manage trains and monitor bookings.
 
 **Main:**
-
-The entry point of the application; integrates all modules and manages user interactions.
+- The entry point of the application; integrates all modules and manages user interactions.
 
 ## **Supporting Files**
-
-DataStorage.java: Simulates data persistence for trains, users, and bookings.
-
-Utils.java: Contains utility methods for date and input validation.
+- DataStorage.java: Simulates data persistence for trains, users, and bookings.
+- Utils.java: Contains utility methods for date and input validation.
 
 ## **Technologies Used**
-
-Java: Core programming language.
-
-Object-Oriented Programming: Ensures a modular and scalable codebase.
-
-Data Persistence: Simulated through in-memory storage for rapid prototyping.
+- **Java**: Core programming language.
+- **Object-Oriented Programming**: Ensures a modular and scalable codebase.
+- **Data Persistence**: Simulated through in-memory storage for rapid prototyping.
 
 ## **How to Run**
 
