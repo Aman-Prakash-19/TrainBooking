@@ -9,16 +9,25 @@ The Train Booking System is a Java-based application designed to manage train re
 **User Registration and Login:**
 
 New users can register with their details.
+
 Existing users can log in and access their accounts.
+
+
 **Train Search:**
 
 Search for trains by route, train number, or schedule.
+
+
 **Ticket Booking:**
 
 Book tickets for available trains with real-time seat availability updates.
+
+
 **Ticket Cancellation:**
 
 Cancel booked tickets and update availability.
+
+
 **Admin Functions:**
 
 Manage train schedules, add/remove trains, and view bookings.
@@ -50,12 +59,15 @@ The entry point of the application; integrates all modules and manages user inte
 ## **Supporting Files**
 
 DataStorage.java: Simulates data persistence for trains, users, and bookings.
+
 Utils.java: Contains utility methods for date and input validation.
 
 ## **Technologies Used**
 
 Java: Core programming language.
+
 Object-Oriented Programming: Ensures a modular and scalable codebase.
+
 Data Persistence: Simulated through in-memory storage for rapid prototyping.
 
 ## **How to Run**
