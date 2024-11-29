@@ -1,25 +1,59 @@
-# **TrainBooking**
+# **Train Booking System**
 
-**CloudBees Assessment Project**
+**Description**
+The Train Booking System is a Java-based application designed to manage train reservations. The project provides features like user registration, train search, ticket booking, and cancellation. With a modular and object-oriented design, it ensures scalability, maintainability, and efficient performance.
 
-**Assessment Requirements:**
+**Features**
+User Registration and Login:
 
-**Coding Assessment:**
+New users can register with their details.
+Existing users can log in and access their accounts.
+Train Search:
 
-- Code must be published in Github with a link we can access (use public repo).
-- Code must compile with some effort on unit tests, doesn't have to be 100%, but it shouldn't be 0%.
-- Here is the application we want to build for the interview
-- Please code this with Java
-- Adding a persistence layer will be cumbersome, so just store the data in your current session/in memory.
+Search for trains by route, train number, or schedule.
+Ticket Booking:
 
-**App to be coded:**
+Book tickets for available trains with real-time seat availability updates.
+Ticket Cancellation:
 
-- I want to board a train from London to France. The train ticket will cost $20.
-- Create API where you can submit a purchase for a ticket. Details included in the receipt are:
-    - From, To, User , price paid.
-- User should include first and last name, email address
-- The user is allocated a seat in the train. Assume the train has only 2 sections, section A and section B.
-- An API that shows the details of the receipt for the user
-- An API that lets you view the users and seat they are allocated by the requested section
-- An API to remove a user from the train
-- An API to modify a user's seat
+Cancel booked tickets and update availability.
+Admin Functions:
+
+Manage train schedules, add/remove trains, and view bookings.
+
+**Project Structure**
+**Main Classes**
+User:
+Handles user registration, login, and profile management.
+
+Train:
+Manages train information, including routes, schedules, and seat availability.
+
+Booking:
+Handles ticket booking and cancellation processes.
+
+Admin:
+Includes functionality for administrators to manage trains and monitor bookings.
+
+Main:
+The entry point of the application; integrates all modules and manages user interactions.
+
+**Supporting Files**
+DataStorage.java: Simulates data persistence for trains, users, and bookings.
+Utils.java: Contains utility methods for date and input validation.
+
+**Technologies Used**
+Java: Core programming language.
+Object-Oriented Programming: Ensures a modular and scalable codebase.
+Data Persistence: Simulated through in-memory storage for rapid prototyping.
+
+**How to Run**
+Clone this repository:
+`git clone https://github.com/Aman-Prakash-19/TrainBooking.git
+cd TrainBooking`
+
+Compile the project:
+`javac *.java`
+
+Run the application:
+`java Main`
