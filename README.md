@@ -1,6 +1,7 @@
 # **Train Booking System**
 
 **Description**
+
 The Train Booking System is a Java-based application designed to manage train reservations. The project provides features like user registration, train search, ticket booking, and cancellation. With a modular and object-oriented design, it ensures scalability, maintainability, and efficient performance.
 
 **Features**
