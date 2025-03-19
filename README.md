@@ -39,8 +39,15 @@ mvn spring-boot:run
 ```
 
 ## 📬 API Endpoints
-POST /ticket/book   → Book a ticket
-GET  /ticket/all    → View all tickets
+```
+| Method | Endpoint               | Description               |
+|--------|------------------------|---------------------------|
+| POST   | /api/purchaseTicket    | Book a new ticket         |
+| GET    | /api/receipt?email=... | Get ticket by user email  |
+| GET    | /api/users?section=A   | Get users by seat section |
+| PUT    | /api/modifySeat        | Change a user’s seat      |
+| DELETE | /api/removeUser        | Remove a user's ticket    |
+```
 
 ## 🧪 Run Tests
 ```
