@@ -3,12 +3,13 @@
 Simple Train Ticket Booking System using Spring Boot and Java. This project demonstrates how to build REST APIs for ticket management.
 
 ## ✨ Features
-- Book and view tickets
-- Clean REST API
-- Layered architecture (Controller → Service → Model)
-- Basic unit testing
+- Book train tickets (default London → France, fixed price & seat auto-assigned)
+- View booking receipt by user email
+- List users by seat section (A/B)
+- Modify a user's seat
+- Delete a user's ticket
 
-## ⚙ Technologies
+## ⚙ Technologies Used
 - Java
 - Spring Boot
 - Maven
@@ -53,4 +54,3 @@ mvn spring-boot:run
 ```
 mvn test
 ```
-
